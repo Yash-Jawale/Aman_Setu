@@ -1,35 +1,8 @@
-* {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-}
-
-.admissions-bar {
-    margin-top: 5px;
-    background-color: blanchedalmond;
-    width: 95%;
-    height: 600px;
-    display: flex;
-    justify-content: space-around;
-}
-
-.admissions-bar > div {
-    background-color: rgb(190, 190, 190);
-    width: 40%;
-    border: 3px black solid;
-}
-
 form {
     display: flex;
     flex-direction: column;
 }
 
 @media screen and (max-width: 768px) {
-    .admissions-bar {
-        flex-direction: column;
-    }
-
-    .admissions-bar > div {
-        width: 90%;
-    }
+    
 }
