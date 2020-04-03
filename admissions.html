@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admissions</title>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="admissions.css" />
+</head>
+<body>
+    <nav>Navigation</nav>
+    <div class="admissions-bar">
+        <div class="form-context">
+            <div>
+                <h1 class="heading">Admissions</h1>
+                <p class="grey-context">We welcome people from all around the world with diverse 
+                    backgrounds to be part of our community and to learn and grow with us!</p>
+                <p class="grey-context">After you fill this form you will receive a phone call and an 
+                    email from us letting you know the date and time for you to visit our school and meet with us.</p>
+                <div class="sm-grey-zig"></div>
+            </div>
+        </div>
+        <div class="adm-form">
+            <form>
+                <input type="text" class="form-grey" placeholder="Parent's Name">
+                <input type="email" class="form-grey" placeholder="Email">
+                <input type="tel" class="form-grey" placeholder="Phone Number">
+                <input placeholder="Child's DOB" type="date" onfocus="(this.type='date')" id="date">
+                <select>
+                    <option selected="" hidden="" value="">Choose class of enrollment</option>
+                    <option>Class 1</option>
+                    <option>Class 2</option>
+                    <option>Class 3</option>
+                    <option>Class 4</option>
+                    <option>Class 5</option>
+                    <option>Class 6</option>
+                    <option>Class 7</option>
+                    <option>Class 8</option>
+                    <option>Class 9</option>
+                    <option>Class 10</option>
+                </select>
+                <p>For academic year</p>
+                <div><input type="radio" name="year" value="10" id="year1" checked="">
+                <label for="year1">2019-20</label>
+                <input type="radio" name="year" value="11" id="year2">
+                <label for="year2">2020-21</label></div>
+                <input type="submit" value="SUBMIT">
+            </form>
+        </div>
+    </div>
+</body>
+</html>
