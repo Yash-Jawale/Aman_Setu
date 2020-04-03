@@ -1,0 +1,229 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.no-desktop {
+    display: none;
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+nav {
+    background-color: #999;
+    color: #EEE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 95%;
+}
+
+.top-section {
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    margin-top: 5px;
+}
+
+.top-section > div {
+    width: 95%;
+    height: 500px;
+    background-color: aqua;
+    border: 2px black solid;
+    display: flex;
+    justify-content: center;
+}
+
+.welcome {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    max-width: 326px;
+}
+
+.welcome > a {
+    align-self: center;
+    background-color: brown;
+    width: 100%;
+    text-align: center;
+    margin: 5px;
+}
+
+.top-img {
+    background-color: #666;
+    height: 372px;
+    width: 285px;
+}
+
+.top-img1 {
+    align-self: flex-start;
+}
+
+.top-img2 {
+    align-self: flex-end;
+}
+
+.mob-slides {
+    width: 100%;
+    background-color: violet;
+    height: 238px;
+    margin-top: 5px;
+}
+
+.heading {
+    font-size: 48px;
+    line-height: 58px;
+}
+
+.motive {
+    display: flex;
+    width: 95%;
+    background-color: cornsilk;
+    margin-top: 10px;
+    justify-content: space-around;
+    border: solid 2px green;
+    flex-wrap: wrap;
+}
+
+.motive > div {
+    border: 3px red solid;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+.motive > div > div {
+    background-color: chartreuse;
+    width: 80px;
+    height: 45px;
+}
+
+
+.philosophy-button {
+    display: flex;
+    background-color: darkmagenta;
+    width: 95%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.philosophy-button > div {
+    background-color: darkseagreen;
+}
+
+.video-bar {
+    display: flex;
+    width: 95%;
+    margin-top: 5px;
+}
+
+.video {
+    background-color: dodgerblue;
+    width: 50%;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.video > div {
+    background-color: forestgreen;
+    height: 100%;
+    width: 70%;
+}
+
+.video-context {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+}
+
+.slide-head {
+    display: flex;
+    background-color: hotpink;
+    width: 95%;
+    margin-top: 5px;
+}
+
+.slide-title {
+    max-width: 469px;
+}
+
+.carousel {
+    background-color: khaki;
+    width: 95%;
+    height: 200px;
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: orangered;
+}
+
+.update-button {
+    display: flex;
+    background-color: peru;
+    width: 95%;
+    margin-top: 5px;
+}
+
+footer {
+    background-color: purple;
+    margin-top: 5px;
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    color: seashell;
+}
+
+.sm-grey-zig {
+    width: 98px;
+    height: 8px;
+    background-color: chocolate;
+}
+
+@media screen and (max-width: 1000px) {
+    .no-tab {
+        display: none !important;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .no-mob {
+        display: none !important;
+    }
+
+    .video-bar {
+        flex-direction: column;
+    }
+    
+    .video {
+        height: 200px;
+    }
+
+    .top-section > div {
+        width: 100%;
+        height: unset;
+    }
+
+    .welcome, .top-section > div, .video-bar div {
+        width: 100%;
+    }
+
+    .no-desktop {
+        display: block;
+    }
+  }
