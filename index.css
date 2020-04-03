@@ -195,6 +195,18 @@ footer {
     background-color: chocolate;
 }
 
+.two-col {
+    display: flex;
+    width: 95%;
+    margin-top: 5px;
+    justify-content: space-between;
+}
+
+.two-col > div {
+    width: 50%;
+}
+
+
 @media screen and (max-width: 1000px) {
     .no-tab {
         display: none !important;
@@ -219,11 +231,20 @@ footer {
         height: unset;
     }
 
-    .welcome, .top-section > div, .video-bar div {
+    .welcome, .top-section > div, .video-bar div, .two-col > div {
         width: 100%;
     }
 
     .no-desktop {
         display: block;
     }
+
+    .two-col {
+        flex-direction: column;
+    }
+
+    .rev-mob {
+        flex-direction: column-reverse;
+    }
+    
   }
