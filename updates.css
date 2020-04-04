@@ -1,0 +1,33 @@
+.filter-bar {
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+}
+
+.filter-bar > div {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.update-bar {
+    width: 95%;
+    background-color: darkkhaki;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.updates {
+    background-color: darkorange;
+    width: 328px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+}
+
+.up-img {
+    width: 85%;
+    height: 179px;
+    background: darkred;
+    align-self: center;
+}
