@@ -1,0 +1,41 @@
+.policy-bar {
+    width: 95%;
+}
+
+.one-side-col {
+    float: left;
+    width: 50%;
+}
+
+.collapsible {
+    cursor: pointer;
+    width: 100%;
+  }
+
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.activecollapsible, .collapsible:hover {
+    
+  }
+
+  /* Style the collapsible content. Note: hidden by default */
+  .content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+  }
+
+  .collapsible:after {
+    content: '▼'; /* Unicode character for "plus" sign (+) */
+    font-size: 13px;
+    float: right;
+  }
+  
+  .activecollapsible:after {
+    content: "▲"; /* Unicode character for "minus" sign (-) */
+  }
+
+  @media screen and (max-width: 768px) {
+      .one-side-col {
+          width: 100%;
+      }
+  }

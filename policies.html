@@ -26,5 +26,77 @@
             process between the students and teachers.</p>
         <div class="sm-grey-zig"></div>
         </div>
+
+    <div class="policy-bar">
+
+
+        <div class="one-side-col">
+            <div>
+                <button type="button" class="collapsible">Collapsible Button</button>
+                <div class="content">
+                    <p>dsuhcushhccccccccccccccccccccccccccccccccccccc
+                        ssssssssssssssssssssssssssssss
+                        ddddddddddddddddddddddddddddddddd
+                    </p>
+                </div>
+            </div>
+            <div>
+                <button type="button" class="collapsible">Collapsible Button</button>
+                <div class="content">
+                    <p>dsuhcushhccccccccccccccccccccccccccccccccccccc
+                        ssssssssssssssssssssssssssssss
+                        ddddddddddddddddddddddddddddddddd
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="one-side-col">
+            <div>
+                <button type="button" class="collapsible">Collapsible Button</button>
+                <div class="content">
+                    <p>dsuhcushhccccccccccccccccccccccccccccccccccccc
+                        ssssssssssssssssssssssssssssss
+                        ddddddddddddddddddddddddddddddddd
+                    </p>
+                </div>
+            </div>
+            <div>
+                <button type="button" class="collapsible">Collapsible Button</button>
+                <div class="content">
+                    <p>dsuhcushhccccccccccccccccccccccccccccccccccccc
+                        ssssssssssssssssssssssssssssss
+                        ddddddddddddddddddddddddddddddddd
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+
+    <script>
+        var coll = document.getElementsByClassName("collapsible");
+          var i;
+
+          for (i = 0; i < coll.length; i++) {
+            coll[i].addEventListener("click", function() {
+              this.classList.toggle("activecollapsible");
+              var content = this.nextElementSibling;
+              if (content.style.maxHeight){
+                content.style.maxHeight = null;
+              } else {
+                content.style.maxHeight = content.scrollHeight + "px";
+              }
+            });
+          }
+    </script>
+
 </body>
 </html>
