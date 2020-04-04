@@ -206,6 +206,17 @@ footer {
     width: 50%;
 }
 
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.top-heading {
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+}
+
 
 @media screen and (max-width: 1000px) {
     .no-tab {
