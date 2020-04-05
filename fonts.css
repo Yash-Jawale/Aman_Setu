@@ -7,6 +7,7 @@
 .content-label {
     font-family: 'PT Serif', serif;
     font-size: 1.5rem;
+    line-height: 29px;
 }
 
 /*Fonts for Admission and Curriculum Buttons*/
@@ -20,6 +21,7 @@
 .update-button, .philosophy-button {
     font-family: 'Roboto', sans-serif;
     font-size: 0.875rem;
+    line-height: 17px;
 }
 
 /*font-family: 'Roboto', sans-serif;*/
@@ -29,6 +31,7 @@
 .grey-context {
     font-family: 'Roboto', sans-serif;
     font-size: 1rem;
+    line-height: 24px;
 }
 
 /*For subtext in philosophy bar on homepage*/
@@ -36,6 +39,7 @@
 .philo-text {
     font-family: 'Roboto', sans-serif;
     font-size: 0.875rem;
+    line-height: 24px;
 }
 
 /*context for curriculum, facilities, etc*/
@@ -43,6 +47,7 @@
 .sub-text {
     font-family: 'Roboto', sans-serif;
     font-size: 1rem;
+    line-height: 24px;
 }
 
 /*For Ratnajaali link, etc.*/
@@ -50,6 +55,7 @@
 .grey-link {
     font-family: 'Roboto', sans-serif;
     font-size: 0.875rem;
+    line-height: 24px;
 }
 
 /*FOr the lists in curriculum page*/
@@ -64,6 +70,7 @@
 .sb-pt {
     font-family: 'Roboto', sans-serif;
     font-size: 1rem;
+    line-height: 24px;
 }
 
 .sb-pt-hd {
@@ -75,17 +82,20 @@
 .up-info {
     font-family: 'Roboto', sans-serif;
     font-size: 0.875rem;
+    line-height: 18px;
 }
 
 /*Filter buttons in Updates page*/
 
 .filter-bar p {
     font-size: 1rem;
+    line-height: 24px;
 }
 
 .filter-bar input {
     font-family: 'Roboto', sans-serif;
     font-size: 0.875rem;
+    line-height: 16px;
 }
 
 /*For collapsibles*/
@@ -93,11 +103,13 @@
 .policy-bar button {
     font-family: 'PT Serif', serif;
     font-size: 1.5rem;
+    line-height: 29px;
 }
 
 .content {
     font-family: 'Roboto', sans-serif;
     font-size: 1rem;
+    line-height: 24px;
 }
 
 /*For the donate and admission forms*/
@@ -105,8 +117,14 @@
 form, form input, form select {
     font-family: 'Roboto', sans-serif;
     font-size: 1rem;
+    line-height: 20px;
+}
+
+.adm-form p {
+    line-height: 15px;
 }
 
 .donate-amt input {
     font-size: 0.875rem;
+    line-height: 18px;
 }
