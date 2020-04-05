@@ -1,3 +1,7 @@
+html {
+    font-size: 16px;
+}
+
 /* Removing the default margins and paddings of browsers */
 * {
     margin: 0px;
@@ -16,6 +20,7 @@
     --footer-grey: #989898;
     --footer-line: #D7D7D7;
 }
+
 
 /*Setting the dislay of mobile only elements to none on desktop*/
 

@@ -1,11 +1,12 @@
 .heading {
-    font-size: 48px;
     line-height: 58px;
     font-family: 'PT Serif', serif;
+    font-size: 3rem;
 }
 
 .content-label {
     font-family: 'PT Serif', serif;
+    font-size: 1.5rem;
 }
 
 /*Fonts for Admission and Curriculum Buttons*/
@@ -13,10 +14,12 @@
 .welcome > a {
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
+    font-size: 0.875rem;
 }
 
 .update-button, .philosophy-button {
     font-family: 'Roboto', sans-serif;
+    font-size: 0.875rem;
 }
 
 /*font-family: 'Roboto', sans-serif;*/
@@ -25,56 +28,85 @@
 
 .grey-context {
     font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
 }
 
-/*For subtext in philosophy bar on homepage, context for curriculum, facilities, etc*/
+/*For subtext in philosophy bar on homepage*/
+
+.philo-text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.875rem;
+}
+
+/*context for curriculum, facilities, etc*/
 
 .sub-text {
     font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
 }
 
 /*For Ratnajaali link, etc.*/
 
 .grey-link {
     font-family: 'Roboto', sans-serif;
+    font-size: 0.875rem;
 }
 
 /*FOr the lists in curriculum page*/
 
 .curr-list {
     font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
 }
 
 /*For sub points in facilities*/
 
 .sb-pt {
     font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+}
+
+.sb-pt-hd {
+    font-size: 1rem;
 }
 
 /*For cards date and type in Updates page*/
 
 .up-info {
     font-family: 'Roboto', sans-serif;
+    font-size: 0.875rem;
 }
 
 /*Filter buttons in Updates page*/
 
+.filter-bar p {
+    font-size: 1rem;
+}
+
 .filter-bar input {
     font-family: 'Roboto', sans-serif;
+    font-size: 0.875rem;
 }
 
 /*For collapsibles*/
 
 .policy-bar button {
     font-family: 'PT Serif', serif;
+    font-size: 1.5rem;
 }
 
 .content {
     font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
 }
 
 /*For the donate and admission forms*/
 
-form, form input {
+form, form input, form select {
     font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+}
+
+.donate-amt input {
+    font-size: 0.875rem;
 }
