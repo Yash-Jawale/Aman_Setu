@@ -49,6 +49,7 @@ nav {
     height: 50px;
     width: 95%;
     flex-wrap: wrap;
+    margin-bottom: 86px;
 }
 
 .top-section {
@@ -78,16 +79,9 @@ nav {
 
 .welcome > a {
     align-self: center;
-    background-color: brown;
     width: 100%;
     text-align: center;
     margin: 5px;
-}
-
-.top-img {
-    background-color: #666;
-    height: 372px;
-    width: 285px;
 }
 
 .top-img1 {
@@ -122,13 +116,6 @@ nav {
     flex-direction: column;
 }
 
-.motive > div > div {
-    background-color: chartreuse;
-    width: 80px;
-    height: 45px;
-}
-
-
 .philosophy-button {
     display: flex;
     background-color: darkmagenta;
@@ -146,13 +133,6 @@ nav {
     display: flex;
     width: 95%;
     margin-top: 5px;
-}
-
-.video {
-    background-color: dodgerblue;
-    width: 50%;
-    display: flex;
-    flex-direction: row-reverse;
 }
 
 .video > div {
