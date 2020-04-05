@@ -1,0 +1,80 @@
+.heading {
+    font-size: 48px;
+    line-height: 58px;
+    font-family: 'PT Serif', serif;
+}
+
+.content-label {
+    font-family: 'PT Serif', serif;
+}
+
+/*Fonts for Admission and Curriculum Buttons*/
+
+.welcome > a {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+.update-button, .philosophy-button {
+    font-family: 'Roboto', sans-serif;
+}
+
+/*font-family: 'Roboto', sans-serif;*/
+
+/*Fonts for the grey context all over the website*/
+
+.grey-context {
+    font-family: 'Roboto', sans-serif;
+}
+
+/*For subtext in philosophy bar on homepage, context for curriculum, facilities, etc*/
+
+.sub-text {
+    font-family: 'Roboto', sans-serif;
+}
+
+/*For Ratnajaali link, etc.*/
+
+.grey-link {
+    font-family: 'Roboto', sans-serif;
+}
+
+/*FOr the lists in curriculum page*/
+
+.curr-list {
+    font-family: 'Roboto', sans-serif;
+}
+
+/*For sub points in facilities*/
+
+.sb-pt {
+    font-family: 'Roboto', sans-serif;
+}
+
+/*For cards date and type in Updates page*/
+
+.up-info {
+    font-family: 'Roboto', sans-serif;
+}
+
+/*Filter buttons in Updates page*/
+
+.filter-bar input {
+    font-family: 'Roboto', sans-serif;
+}
+
+/*For collapsibles*/
+
+.policy-bar button {
+    font-family: 'PT Serif', serif;
+}
+
+.content {
+    font-family: 'Roboto', sans-serif;
+}
+
+/*For the donate and admission forms*/
+
+form, form input {
+    font-family: 'Roboto', sans-serif;
+}

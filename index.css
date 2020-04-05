@@ -1,12 +1,29 @@
+/* Removing the default margins and paddings of browsers */
 * {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
 }
 
+/*Declaration of variables*/
+
+:root{
+    --accent-color: #F8C302;
+    --light-grey: #D6D6D6;
+    --dark-grey: #676767;
+    --black-color: #000000;
+    --white-color: #FFFFFF;
+    --footer-grey: #989898;
+    --footer-line: #D7D7D7;
+}
+
+/*Setting the dislay of mobile only elements to none on desktop*/
+
 .no-desktop {
     display: none;
 }
+
+/*Setting body to display flex*/
 
 body {
     padding: 0px;
@@ -81,11 +98,6 @@ nav {
     background-color: violet;
     height: 238px;
     margin-top: 5px;
-}
-
-.heading {
-    font-size: 48px;
-    line-height: 58px;
 }
 
 .motive {
