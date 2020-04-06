@@ -131,6 +131,10 @@
     width: 0;
   }
 
+  input[type="date"] {
+      min-width: 100%;
+  }
+
   label {
     display: inline-block;
     background-color: #FFFFFF;
