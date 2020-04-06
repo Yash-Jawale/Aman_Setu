@@ -213,3 +213,19 @@ input[type="radio"]:checked + label {
     background-image: url(res/img/up-card-img.png);
     background-size: cover;
 }
+
+/*Curriculum Page */
+
+.curr-img {
+    background-image: url(res/img/curr-img.png);
+    background-size: cover;
+    border-radius: 16px;
+}
+
+/*School Facilities Page */
+
+.fac-img {
+    background-image: url(res/img/fac-img.png);
+    background-size: cover;
+    border-radius: 16px;
+}

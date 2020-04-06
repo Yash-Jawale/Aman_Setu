@@ -20,7 +20,8 @@
     width: 328px;
     display: flex;
     flex-direction: column;
-    margin: 5px;
+    margin: 6px;
+    margin-bottom: 8px;
     /* height: max-content; */
 }
 
