@@ -229,3 +229,15 @@ input[type="radio"]:checked + label {
     background-size: cover;
     border-radius: 16px;
 }
+
+/*School Policy */
+
+.collapsible {
+    color: var(--accent-color);
+    background-color: var(--white-color);
+    border: none;
+    border-bottom: 1px solid var(--accent-color);
+    text-align: left;
+    padding: 18px;
+    padding-left: 0;
+}

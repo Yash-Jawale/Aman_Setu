@@ -215,6 +215,10 @@ form {
     max-width: 328px;
 }
 
+.one-side-col {
+    padding-right: 20px;
+}
+
 
 @media screen and (max-width: 1000px) {
     .no-tab {
@@ -258,6 +262,10 @@ form {
 
     .adm-form {
         max-width: none;
+    }
+
+    .one-side-col {
+        padding-right: 0;
     }
     
   }
