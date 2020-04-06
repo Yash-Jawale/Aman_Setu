@@ -19,6 +19,7 @@ html {
     --white-color: #FFFFFF;
     --footer-grey: #989898;
     --footer-line: #D7D7D7;
+    --accent-hover: #e6b302;
 }
 
 
@@ -209,6 +210,10 @@ form {
     width: 95%;
 }
 
+.adm-form {
+    max-width: 328px;
+}
+
 
 @media screen and (max-width: 1000px) {
     .no-tab {
@@ -248,6 +253,10 @@ form {
 
     .rev-mob {
         flex-direction: column-reverse;
+    }
+
+    .adm-form {
+        max-width: none;
     }
     
   }
