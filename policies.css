@@ -1,5 +1,5 @@
 .policy-bar {
-    width: 95%;
+    width: var(--ele-width);
 }
 
 .one-side-col {

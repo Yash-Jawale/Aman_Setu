@@ -21,6 +21,7 @@ html {
     --footer-line: #D7D7D7;
     --accent-hover: #e6b302;
     --up-card: #F8F8F8;
+    --ele-width: 95%;
 }
 
 
@@ -49,7 +50,7 @@ nav {
     justify-content: space-around;
     align-items: center;
     height: 50px;
-    width: 95%;
+    width: var(--ele-width);
     flex-wrap: wrap;
     margin-bottom: 86px;
 }
@@ -57,7 +58,7 @@ nav {
 .top-section {
     display: flex;
     justify-content: space-between;
-    width: 95%;
+    width: var(--ele-width);
     margin-top: 5px;
 }
 
@@ -103,7 +104,7 @@ nav {
 
 .motive {
     display: flex;
-    width: 95%;
+    width: var(--ele-width);
     background-color: cornsilk;
     margin-top: 10px;
     justify-content: space-around;
@@ -120,7 +121,7 @@ nav {
 
 .philosophy-button {
     display: flex;
-    width: 95%;
+    width: var(--ele-width);
     justify-content: center;
     align-items: center;
     margin-top: 10px;
@@ -128,7 +129,7 @@ nav {
 
 .video-bar {
     display: flex;
-    width: 95%;
+    width: var(--ele-width);
     margin-top: 5px;
 }
 
@@ -147,7 +148,7 @@ nav {
 .slide-head {
     display: flex;
     background-color: hotpink;
-    width: 95%;
+    width: var(--ele-width);
     margin-top: 5px;
 }
 
@@ -157,7 +158,7 @@ nav {
 
 .carousel {
     background-color: khaki;
-    width: 95%;
+    width: var(--ele-width);
     height: 200px;
     margin-top: 5px;
     display: flex;
@@ -168,14 +169,14 @@ nav {
 
 .update-button {
     display: flex;
-    width: 95%;
+    width: var(--ele-width);
     margin-top: 5px;
 }
 
 footer {
     background-color: purple;
     margin-top: 5px;
-    width: 95%;
+    width: var(--ele-width);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -191,7 +192,7 @@ footer {
 
 .two-col {
     display: flex;
-    width: 95%;
+    width: var(--ele-width);
     margin-top: 5px;
     justify-content: space-between;
 }
@@ -208,7 +209,7 @@ form {
 .top-heading {
     display: flex;
     flex-direction: column;
-    width: 95%;
+    width: var(--ele-width);
 }
 
 .adm-form, .donate-form {

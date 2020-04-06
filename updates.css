@@ -1,7 +1,7 @@
 .filter-bar {
     display: flex;
     flex-direction: column;
-    width: 95%;
+    width: var(--ele-width);
 }
 
 .filter-bar > div {
@@ -10,7 +10,7 @@
 }
 
 .update-bar {
-    width: 95%;
+    width: var(--ele-width);
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
