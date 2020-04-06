@@ -211,7 +211,7 @@ form {
     width: 95%;
 }
 
-.adm-form {
+.adm-form, .donate-form {
     max-width: 328px;
 }
 
@@ -260,7 +260,7 @@ form {
         flex-direction: column-reverse;
     }
 
-    .adm-form {
+    .adm-form, .donate-form {
         max-width: none;
     }
 

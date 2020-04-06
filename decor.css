@@ -98,7 +98,7 @@
     display: flex;
 }
 
-.adm-form input, .adm-form select {
+.adm-form input, .adm-form select, .donate-form input {
     background: #F2F2F2;
     border-radius: 4px;
     border: 0px;
@@ -158,7 +158,7 @@ input[type="radio"]:checked + label {
     color: #FFFFFF;
 }
 
-.adm-form input[type="submit"] {
+.adm-form input[type="submit"], .donate-form input[type="submit"] {
     background-color:var(--accent-color);
     border: 1px solid var(--accent-color);
     border-radius: 4px;
@@ -168,7 +168,7 @@ input[type="radio"]:checked + label {
     transition: background 0.2s ease-out;
 }
 
-.adm-form input[type="submit"]:hover {
+.adm-form input[type="submit"]:hover, .donate-form input[type="submit"]:hover {
     background: var(--accent-hover);
 }
 
@@ -240,4 +240,143 @@ input[type="radio"]:checked + label {
     text-align: left;
     padding: 18px;
     padding-left: 0;
+}
+
+/*Donate form after applying admission form styles*/
+
+.donate-form {
+    align-items: center;
+    width: 100%;
+}
+
+.donate-form input {
+    width: 100%;
+}
+
+.donate-amt {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.donate-amt input {
+    width: initial;
+    padding: 12px 0;
+    min-width: 104px;
+    font-weight: bold;
+    color: var(--accent-color);
+    border: 1px solid var(--accent-color);
+    border-radius: 4px;
+    background-color: var(--white-color);
+    transition: background-color 0.2s ease-out, color 0.2s ease-out;
+}
+
+.donate-amt input:hover {
+    background-color: var(--accent-color);
+    color: #FFFFFF;
+}
+
+.donate-or {
+    margin-bottom: 24px;
+}
+
+.donate-form input[type="text"] {
+    margin-top: 24px;
+}
+
+.donate-check:hover {
+    background-color: #FFFFFF;
+    color: #000000;
+    transition: none;
+}
+
+.container {
+    position: relative;
+    padding: 0px 0px 0px 35px;
+    margin: 0;
+    margin-bottom: 24px;
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 20px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: initial;
+    color: initial;
+    border: none;
+    border-radius: initial;
+    width: 100%;
+  }
+  
+  /* Hide the browser's default checkbox */
+  .container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  
+  /* Create a custom checkbox */
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    border-radius: 4px;
+  }
+  
+  /* On mouse-over, add a grey background color */
+  .container:hover input ~ .checkmark {
+    background-color: #ccc;
+    transition: background-color 0.2s ease-out;
+  }
+  
+  /* When the checkbox is checked, add a blue background */
+  .container input:checked ~ .checkmark {
+    background-color: var(--accent-color);
+  }
+
+  .container input:checked:hover ~ .checkmark {
+    background-color: var(--accent-hover);
+  }
+  
+  /* Create the checkmark/indicator (hidden when not checked) */
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  /* Show the checkmark when checked */
+  .container input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  /* Style the checkmark/indicator */
+  .container .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+
+.donate-form a {
+    padding: 0px 0px 0px 35px;
+    color: #676767;
+    align-self: flex-start;
+    margin-bottom: 32px;
+}
+
+.donate-form a:hover {
+    color: var(--accent-color);
+    transition: color 0.2s ease-out;
 }
