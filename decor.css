@@ -171,3 +171,45 @@ input[type="radio"]:checked + label {
 .adm-form input[type="submit"]:hover {
     background: var(--accent-hover);
 }
+
+/*Updates Page*/
+
+.filter-bar input[type="button"] {
+    padding: 10px 20px;
+    border: 1px solid var(--footer-line);
+    background-color: var(--white-color);
+    border-radius: 8px;
+    color: #B1B1B1;
+    box-shadow: none;
+    margin: 8px;
+}
+
+.filter-bar input[type="button"].active {
+    background-color: var(--accent-color);
+    border-color: var(--accent-color);
+    border-radius: 4px;
+    color: #FFFFFF;
+}
+
+.filter-bar > div {
+    margin-left: -8px;
+}
+
+.updates {
+    background-color: var(--up-card);
+    border-radius: 16px;
+    padding: 24px;
+}
+
+.up-dt, .up-tp {
+    color: var(--dark-grey);
+}
+
+.up-tp {
+    font-weight: bold;
+}
+
+.up-img {
+    background-image: url(res/img/up-card-img.png);
+    background-size: cover;
+}
