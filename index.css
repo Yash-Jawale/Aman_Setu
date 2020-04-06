@@ -41,7 +41,7 @@ body {
 }
 
 nav {
-    background-color: #999;
+    background-color: var(--accent-color);
     color: #EEE;
     display: flex;
     justify-content: space-around;
@@ -118,15 +118,10 @@ nav {
 
 .philosophy-button {
     display: flex;
-    background-color: darkmagenta;
     width: 95%;
     justify-content: center;
     align-items: center;
     margin-top: 10px;
-}
-
-.philosophy-button > div {
-    background-color: darkseagreen;
 }
 
 .video-bar {
@@ -171,7 +166,6 @@ nav {
 
 .update-button {
     display: flex;
-    background-color: peru;
     width: 95%;
     margin-top: 5px;
 }
