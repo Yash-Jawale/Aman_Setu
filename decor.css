@@ -31,11 +31,24 @@
     background-size: cover;
 }
 
+.heading, .grey-context {
+    margin-bottom: 32px;
+}
+
+.top-section {
+    margin-bottom: 70px;
+}
+
+.motive {
+    margin-top: 70px;
+}
+
 .ph-img1 {
     width: 68.35px;
     height: 34px;
     background-image: url(res/svg/p-img1.svg);
     background-size: cover;
+    margin-bottom: 18px;
 }
 
 .ph-img2 {
@@ -43,6 +56,7 @@
     height: 34px;
     background-image: url(res/svg/p-img2.svg);
     background-size: cover;
+    margin-bottom: 18px;
 }
 
 .ph-img3 {
@@ -50,8 +64,21 @@
     height: 34px;
     background-image: url(res/svg/p-img3.svg);
     background-size: cover;
+    margin-bottom: 18px;
 }
 
+.grey-link {
+    color: var(--black-color);
+    transition: color 0.2s ease-out;
+}
+
+.grey-link:hover {
+    color: var(--accent-color);
+}
+
+.motive > div > h2 {
+    margin-bottom: 18px;
+}
 /* .video {
     background-color: dodgerblue;
     width: 50%;
@@ -80,12 +107,22 @@
     height: 100%;
 }
 
+.video-bar {
+    margin-top: 100px;
+}
+
+.sub-text {
+    margin: 8px 0;
+}
+
 .update-button a, .philosophy-button a {
     padding: 15px 36px;
     color: var(--dark-grey);
     text-decoration: none;
     border: 1px solid var(--light-grey);
     border-radius: 8px;
+    text-align: center;
+    margin-top: 25px;
 }
 
 /*Admission Form*/
