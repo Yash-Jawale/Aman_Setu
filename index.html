@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="index.css" />
     <link rel="stylesheet" href="fonts.css" />
     <link rel="stylesheet" href="decor.css" />
+    <link rel="stylesheet" href="plugins/OwlCarousel2-2.3.4/dist/assets/owl.carousel.css" type="text/css">
+    <link rel="stylesheet" href="plugins/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css" type="text/css">
 </head>
 <body>
     
@@ -79,7 +81,53 @@
         <h1 class="heading slide-title">What People Are Saying About Us</h1>
     </div>
 
-    <div class="carousel">Carousel</div>
+    <div class="carousel">
+        <div class="owl-one owl-carousel owl-theme">
+
+            
+        <div class="review-card item">
+            <p>We practice experience based learning wherin children enjoy exploring and 
+                using various faculties of their minds and bodies</p>
+            <img src="res/svg/grey-zig.svg" class="rev-decal"/>
+            <div>
+                <img src="res/img/avatar.png" class="rev-avatar" />
+                <div>
+                    <p class="rev-name">Asha Chowdhary</p>
+                    <p class="rev-des">Designation</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="review-card item">
+            <p>We practice experience based learning wherin children enjoy exploring and 
+                using various faculties of their minds and bodies</p>
+            <img src="res/svg/grey-zig.svg" class="rev-decal"/>
+            <div>
+                <img src="res/img/avatar.png" class="rev-avatar" />
+                <div>
+                    <p class="rev-name">Asha Chowdhary</p>
+                    <p class="rev-des">Designation</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="review-card item">
+            <p>We practice experience based learning wherin children enjoy exploring and 
+                using various faculties of their minds and bodies</p>
+            <img src="res/svg/grey-zig.svg" class="rev-decal"/>
+            <div>
+                <img src="res/img/avatar.png" class="rev-avatar" />
+                <div>
+                    <p class="rev-name">Asha Chowdhary</p>
+                    <p class="rev-des">Designation</p>
+                </div>
+            </div>
+        </div>
+
+
+        </div>
+    </div>
+
 
     <div class="slide-head">
         <h1 class="heading slide-title">Updates & Announcements</h1>
@@ -94,6 +142,64 @@
     <footer>
         Footer
     </footer>
+
+
+    <script src="plugins/OwlCarousel2-2.3.4/docs/assets/vendors/jquery.min.js" type="text/javascript" ></script>
+      <script src="plugins/OwlCarousel2-2.3.4/dist/owl.carousel.js" type="text/javascript"></script>
+      <script type="text/javascript">
+          $('.owl-one').owlCarousel({
+              loop:true,
+              autoplay:true,
+              autoplayHoverPause:true,
+              autoplayTimeout:6000,
+              margin:10,
+              nav:true,
+              navText : ['<img src= "res/svg/left.svg" class="car-arrow">','<img src= "res/svg/right.svg" class="car-arrow">'],
+              responsive:{
+                  0:{
+                      items:1
+                  },
+                  600:{
+                      items:2
+                  },
+                  1000:{
+                      items:3
+                  }
+              }
+          });
+
+          $('.owl-two').owlCarousel({
+              loop:true,
+              margin:10,
+              nav:true,
+              navText : ['<img src= "res/svg/left.svg" class="car-arrow">','<img src= "res/svg/right.svg" class="car-arrow">'],
+              responsive:{
+                  0:{
+                      items:1
+                  },
+                  600:{
+                      items:2
+                  },
+                  1000:{
+                      items:3
+                  }
+              }
+          });
+
+
+          /* var owl = $('.owl-one');
+          owl.on('mousewheel', '.owl-stage', function (e) {
+              if (e.deltaY>0) {
+                  owl.trigger('next.owl');
+              } else {
+                  owl.trigger('prev.owl');
+              }
+              e.preventDefault();
+          }); */
+          
+      </script>
+
+
 
 </body>
 </html>

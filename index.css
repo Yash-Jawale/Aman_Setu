@@ -21,7 +21,7 @@ html {
     --footer-line: #D7D7D7;
     --accent-hover: #e6b302;
     --up-card: #F8F8F8;
-    --ele-width: 95%;
+    --ele-width: 85%;
 }
 
 
@@ -75,7 +75,7 @@ nav {
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    max-width: 326px;
+    max-width: 300px;
 }
 
 .welcome > a {
@@ -139,7 +139,7 @@ nav {
     width: 50%;
     flex-direction: column;
     padding-left: 80px;
-    max-width: 350px;
+    max-width: 400px;
 }
 
 .slide-head {
@@ -154,14 +154,8 @@ nav {
 }
 
 .carousel {
-    background-color: khaki;
     width: var(--ele-width);
-    height: 200px;
     margin-top: 5px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: orangered;
 }
 
 .update-button {
@@ -219,6 +213,7 @@ form {
 
 .motive > div {
     margin: 10px;
+    max-width: 254px;
 }
 
 
@@ -248,6 +243,10 @@ form {
 
     .welcome, .top-section > div, .video-bar div, .two-col > div {
         width: 100%;
+    }
+
+    .welcome {
+        max-width: none;
     }
 
     .no-desktop {
