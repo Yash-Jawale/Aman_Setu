@@ -130,3 +130,25 @@ form, form input, form select {
     font-size: 0.875rem;
     line-height: 18px;
 }
+
+.update-card {
+    font-family: 'Roboto', sans-serif;
+}
+
+.up-sd-hd {
+    font-family: 'PT Serif', serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    line-height: 29px;
+    color: var(--black-color);
+}
+
+.up-sd-dt {
+    font-size: 0.875rem;
+    line-height: 18px;
+    color: var(--dark-grey);
+}
+
+.up-sd.ct {
+    font-size: 1rem;
+}

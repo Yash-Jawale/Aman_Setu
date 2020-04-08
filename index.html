@@ -82,8 +82,8 @@
 
     <div class="carousel">
         <div class="rev-car-arr">
-        <img src="res/svg/left.svg" class="prev" style="width: 50px; height: 50px;">
-        <img src="res/svg/right.svg" class="next" style="width: 50px; height: 50px;">
+        <img src="res/svg/left.svg" class="prev-rev" style="width: 50px; height: 50px;">
+        <img src="res/svg/right.svg" class="next-rev" style="width: 50px; height: 50px;">
         </div>
 
         <div class="review-carousel">
@@ -176,7 +176,62 @@
         <h1 class="heading slide-title">Updates & Announcements</h1>
     </div>
 
-    <div class="carousel">Carousel</div>
+    <div class="carousel">
+        <div class="up-car-arr">
+        <img src="res/svg/left.svg" class="prev-up" style="width: 50px; height: 50px;">
+        <img src="res/svg/right.svg" class="next-up" style="width: 50px; height: 50px;">
+        </div>
+
+        <div class="update-carousel">
+
+            <div class="update-card">
+                <div><p class="up-sd-dt">12/05/19</p>
+                <h3 class="up-sd-hd">Nagpanchami Celebration</h3>
+                <p class="up-sd-ct">This year we celebrated Nagpachami with great pomp and gusto with the snake feeding ceremony...</p></div>
+                <img src="res/img/up-1.png" class="up-sd-img">
+            </div>
+
+            <div class="update-card">
+                <div><p class="up-sd-dt">12/05/19</p>
+                <h3 class="up-sd-hd">Nagpanchami Celebration</h3>
+                <p class="up-sd-ct">This year we celebrated Nagpachami with great pomp and gusto with the snake feeding ceremony...</p></div>
+                <img src="res/img/up-2.png" class="up-sd-img">
+            </div>
+
+            <div class="update-card">
+                <div><p class="up-sd-dt">12/05/19</p>
+                <h3 class="up-sd-hd">Nagpanchami Celebration</h3>
+                <p class="up-sd-ct">This year we celebrated Nagpachami with great pomp and gusto with the snake feeding ceremony...</p></div>
+                <img src="res/img/up-3.png" class="up-sd-img">
+            </div>
+
+            <div class="update-card">
+                <div><p class="up-sd-dt">12/05/19</p>
+                <h3 class="up-sd-hd">Nagpanchami Celebration</h3>
+                <p class="up-sd-ct">This year we celebrated Nagpachami with great pomp and gusto with the snake feeding ceremony...</p></div>
+                <img src="res/img/up-1.png" class="up-sd-img">
+            </div>
+
+            <div class="update-card">
+                <div><p class="up-sd-dt">12/05/19</p>
+                <h3 class="up-sd-hd">Nagpanchami Celebration</h3>
+                <p class="up-sd-ct">This year we celebrated Nagpachami with great pomp and gusto with the snake feeding ceremony...</p></div>
+                <img src="res/img/up-2.png" class="up-sd-img">
+            </div>
+
+            <div class="update-card">
+                <div><p class="up-sd-dt">12/05/19</p>
+                <h3 class="up-sd-hd">Nagpanchami Celebration</h3>
+                <p class="up-sd-ct">This year we celebrated Nagpachami with great pomp and gusto with the snake feeding ceremony...</p></div>
+                <img src="res/img/up-3.png" class="up-sd-img">
+            </div>
+
+    
+
+
+
+        </div>
+    </div>
 
     <div class="update-button">
         <a href="#">READ ALL UPDATES</a>
@@ -198,17 +253,40 @@
         arrows: true,
         infinite:true,
         slidesToShow: 3,
-        prevArrow:$('.prev'),
-        nextArrow:$('.next'),
+        prevArrow:$('.prev-rev'),
+        nextArrow:$('.next-rev'),
         responsive: [
             {
-              breakpoint: 1100,
+              breakpoint: 900,
               settings: {
                 slidesToShow: 2
               }
             },
             {
-              breakpoint: 480,
+              breakpoint: 630,
+              settings: {
+                slidesToShow: 1
+              }
+            }],
+      });
+    });
+
+    $(document).ready(function(){
+      $('.update-carousel').slick({
+        arrows: true,
+        infinite:true,
+        slidesToShow: 3,
+        prevArrow:$('.prev-up'),
+        nextArrow:$('.next-up'),
+        responsive: [
+            {
+              breakpoint: 900,
+              settings: {
+                slidesToShow: 2
+              }
+            },
+            {
+              breakpoint: 630,
               settings: {
                 slidesToShow: 1
               }
