@@ -41,6 +41,7 @@ body {
     flex-direction: column;
     align-items: center;
     padding-bottom: 50px;
+    /* background-color: black; */
 }
 
 nav {

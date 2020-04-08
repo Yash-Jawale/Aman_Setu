@@ -8,7 +8,8 @@
     <link rel="stylesheet" href="index.css" />
     <link rel="stylesheet" href="fonts.css" />
     <link rel="stylesheet" href="decor.css" />
-</head>
+    <link rel="stylesheet" type="text/css" href="slick-1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick-1.8.1/slick/slick-theme.css"/>
 <body>
     
     <nav>
@@ -80,10 +81,15 @@
     </div>
 
     <div class="carousel">
-        <div class="owl-one owl-carousel owl-theme">
+        <div class="rev-car-arr">
+        <img src="res/svg/left.svg" class="prev" style="width: 50px; height: 50px;">
+        <img src="res/svg/right.svg" class="next" style="width: 50px; height: 50px;">
+        </div>
+
+        <div class="review-carousel">
 
             
-        <div class="review-card item">
+        <div class="review-card">
             <p>We practice experience based learning wherin children enjoy exploring and 
                 using various faculties of their minds and bodies</p>
             <img src="res/svg/grey-zig.svg" class="rev-decal"/>
@@ -96,7 +102,7 @@
             </div>
         </div>
 
-        <div class="review-card item">
+        <div class="review-card">
             <p>We practice experience based learning wherin children enjoy exploring and 
                 using various faculties of their minds and bodies</p>
             <img src="res/svg/grey-zig.svg" class="rev-decal"/>
@@ -109,7 +115,46 @@
             </div>
         </div>
 
-        <div class="review-card item">
+        <div class="review-card">
+            <p>We practice experience based learning wherin children enjoy exploring and 
+                using various faculties of their minds and bodies</p>
+            <img src="res/svg/grey-zig.svg" class="rev-decal"/>
+            <div>
+                <img src="res/img/avatar.png" class="rev-avatar" />
+                <div>
+                    <p class="rev-name">Asha Chowdhary</p>
+                    <p class="rev-des">Designation</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="review-card">
+            <p>We practice experience based learning wherin children enjoy exploring and 
+                using various faculties of their minds and bodies</p>
+            <img src="res/svg/grey-zig.svg" class="rev-decal"/>
+            <div>
+                <img src="res/img/avatar.png" class="rev-avatar" />
+                <div>
+                    <p class="rev-name">Asha Chowdhary</p>
+                    <p class="rev-des">Designation</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="review-card">
+            <p>We practice experience based learning wherin children enjoy exploring and 
+                using various faculties of their minds and bodies</p>
+            <img src="res/svg/grey-zig.svg" class="rev-decal"/>
+            <div>
+                <img src="res/img/avatar.png" class="rev-avatar" />
+                <div>
+                    <p class="rev-name">Asha Chowdhary</p>
+                    <p class="rev-des">Designation</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="review-card">
             <p>We practice experience based learning wherin children enjoy exploring and 
                 using various faculties of their minds and bodies</p>
             <img src="res/svg/grey-zig.svg" class="rev-decal"/>
@@ -141,6 +186,36 @@
         Footer
     </footer>
 
+
+
+<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="slick-1.8.1/slick/slick.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function(){
+      $('.review-carousel').slick({
+        autoplay: true,
+        arrows: true,
+        infinite:true,
+        slidesToShow: 3,
+        prevArrow:$('.prev'),
+        nextArrow:$('.next'),
+        responsive: [
+            {
+              breakpoint: 1100,
+              settings: {
+                slidesToShow: 2
+              }
+            },
+            {
+              breakpoint: 480,
+              settings: {
+                slidesToShow: 1
+              }
+            }],
+      });
+    });
+  </script>
 
 
 
